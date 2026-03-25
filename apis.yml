@@ -1,0 +1,44 @@
+aid: relay-compiler
+name: Relay Compiler
+description: >-
+  Relay Compiler is Meta's ahead-of-time GraphQL compiler that generates optimized runtime artifacts and type-safe code for Relay applications, enabling efficient data fetching in React apps.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - SDKs
+  - GraphQL
+  - React
+  - Code Generation
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/relay-compiler/refs/heads/main/apis.yml
+created: '2026-03-25'
+modified: '2026-03-25'
+specificationVersion: '0.19'
+apis:
+  - aid: relay-compiler:relay-compiler
+    name: Relay Compiler
+    description: >-
+      Relay Compiler is Meta's ahead-of-time GraphQL compiler that generates optimized runtime artifacts and type-safe code for Relay applications, enabling efficient data fetching in React apps.
+    humanURL: https://relay.dev
+    tags:
+      - SDKs
+  - GraphQL
+  - React
+  - Code Generation
+    properties:
+      - type: Documentation
+        url: https://relay.dev/docs/
+      - type: Getting Started
+        url: https://relay.dev/docs/getting-started/
+      - type: GitHub Repository
+        url: https://github.com/facebook/relay
+common:
+  - type: Website
+    url: https://relay.dev
+  - type: Documentation
+    url: https://relay.dev/docs/
+  - type: GitHub Organization
+    url: https://github.com/facebook/relay
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
