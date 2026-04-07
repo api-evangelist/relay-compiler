@@ -22,9 +22,9 @@ apis:
     humanURL: https://relay.dev
     tags:
       - SDKs
-  - GraphQL
-  - React
-  - Code Generation
+      - GraphQL
+      - React
+      - Code Generation
     properties:
       - type: Documentation
         url: https://relay.dev/docs/
