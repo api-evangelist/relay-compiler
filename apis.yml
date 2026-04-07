@@ -5,10 +5,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - SDKs
+  - Code Generation
   - GraphQL
   - React
-  - Code Generation
+  - SDKs
 url: >-
   https://raw.githubusercontent.com/api-evangelist/relay-compiler/refs/heads/main/apis.yml
 created: '2026-03-25'
@@ -21,10 +21,10 @@ apis:
       Relay Compiler is Meta's ahead-of-time GraphQL compiler that generates optimized runtime artifacts and type-safe code for Relay applications, enabling efficient data fetching in React apps.
     humanURL: https://relay.dev
     tags:
-      - SDKs
+      - Code Generation
       - GraphQL
       - React
-      - Code Generation
+      - SDKs
     properties:
       - type: Documentation
         url: https://relay.dev/docs/
