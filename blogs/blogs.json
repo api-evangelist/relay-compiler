@@ -1,0 +1,13 @@
+{
+  "repo": "relay-compiler",
+  "feeds": [
+    {
+      "source": "https://relay.dev/blog/",
+      "feed_url": "https://relay.dev/blog/rss.xml",
+      "saved": 7,
+      "title": "Relay Blog"
+    }
+  ],
+  "post_count": 7,
+  "fetched": "2026-05-03T23:34:42Z"
+}
