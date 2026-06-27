@@ -49,7 +49,7 @@ apis:
     url: https://relay.dev/docs/api-reference/graphql-and-directives/
   - type: GitHubRepository
     url: https://github.com/facebook/relay
-  - type: Releases
+  - type: ReleaseNotes
     url: https://github.com/facebook/relay/releases
 
   - url: graphql/relay-compiler-graphql.md
