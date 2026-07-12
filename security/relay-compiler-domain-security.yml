@@ -1,0 +1,15 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: relay.dev
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 24 05:01:58 2026 GMT
+  hsts: false
+domains:
+- domain: relay.dev
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false

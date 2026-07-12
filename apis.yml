@@ -76,6 +76,8 @@ apis:
     url: https://github.com/facebook/relay
 
 common:
+- type: DomainSecurity
+  url: security/relay-compiler-domain-security.yml
 - type: Website
   url: https://relay.dev
 - type: Documentation
