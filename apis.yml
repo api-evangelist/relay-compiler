@@ -88,6 +88,9 @@ apis:
     url: https://github.com/facebook/relay
 
 common:
+- type: License
+  name: MIT
+  url: https://github.com/facebook/relay/blob/main/LICENSE
 - type: DomainSecurity
   url: security/relay-compiler-domain-security.yml
 - type: Website
