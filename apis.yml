@@ -26,6 +26,14 @@ tags:
 - GraphQL
 - React
 - Meta
+- Open-Source
+- TypeScript
+- Build Tools
+tags_raw:
+- Code Generation
+- GraphQL
+- React
+- Meta
 - Open Source
 - TypeScript
 - Build Tools
@@ -46,6 +54,13 @@ apis:
     pagination fragments, and data masking.
   humanURL: https://relay.dev
   tags:
+  - Compiler
+  - GraphQL
+  - Code Generation
+  - Build Tools
+  - TypeScript
+  - Flow
+  tags_raw:
   - Compiler
   - GraphQL
   - Code Generation
