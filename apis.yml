@@ -8,6 +8,18 @@ description: >-
   generates TypeScript/Flow types for React components. It supports pagination,
   mutations, subscriptions, and deferred data streaming via GraphQL directives.
 type: Index
+deliveryModel:
+  model: self-hosted
+  license: MIT
+  open_source: true
+  commercial: false
+  callable_host: false
+  label: Self-hosted open source · you run it yourself
+  confidence: high
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
@@ -103,6 +115,12 @@ apis:
     url: https://github.com/facebook/relay
 
 common:
+- type: IssueTracker
+  url: https://github.com/facebook/relay/issues
+- type: CodeOfConduct
+  url: https://github.com/facebook/relay/blob/main/.github/CODE_OF_CONDUCT.md
+- type: ContributionGuide
+  url: https://github.com/facebook/relay/blob/main/.github/CONTRIBUTING.md
 - type: License
   name: MIT
   url: https://github.com/facebook/relay/blob/main/LICENSE
