@@ -69,7 +69,7 @@ apis:
   - Compiler
   - GraphQL
   - Code Generation
-  - Build Tools
+  - Build Tool
   - TypeScript
   - Flow
   tags_raw:
