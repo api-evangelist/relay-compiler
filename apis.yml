@@ -38,7 +38,7 @@ tags:
 - GraphQL
 - React
 - Meta
-- Open-Source
+- Open Source
 - TypeScript
 - Build Tools
 tags_raw:
@@ -49,6 +49,7 @@ tags_raw:
 - Open Source
 - TypeScript
 - Build Tools
+- Open-Source
 url: >-
   https://raw.githubusercontent.com/api-evangelist/relay-compiler/refs/heads/main/apis.yml
 created: '2026-03-25'
