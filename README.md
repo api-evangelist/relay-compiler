@@ -64,52 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Relay is Meta's open-source JavaScript framework and ahead-of-time GraphQL compiler for building data-driven React applications. The Relay Compiler scans JavaScript code for GraphQL fragments, aggregates and optimizes data requirements for entire apps, pre-computes queries at build time for efficient runtime performance, and generates TypeScript/Flow types for React components.
+Relay is Meta's open-source JavaScript framework and ahead-of-time GraphQL compiler for building data-driven React applications. The Relay Compiler scans JavaScript code for GraphQL fragments, aggregates and optimizes data requirements for entire apps, pre-computes queries at build time for efficient runtime performance, and generates TypeScript/Flow types for React components. It supports pagination, mutations, subscriptions, and deferred data streaming via GraphQL directives.
 
-**URL:** [apis.yml](https://raw.githubusercontent.com/api-evangelist/relay-compiler/refs/heads/main/apis.yml)
+**Areas:** Code Generation · GraphQL · React · Meta · Open Source · TypeScript · Build Tools
 
-## APIs
+## Relay Compiler on APIs.io
 
-| Name | Description |
+Everything profiled for Relay Compiler is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/relay-compiler/](https://apis.io/providers/relay-compiler/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Relay Compiler](https://apis.io/apis/relay-compiler/relay-compiler/) — The Relay Compiler is Meta's ahead-of-time GraphQL compiler that generates optimized runtime artifacts and type-safe code for Relay applications. It…
+- [Relay Runtime](https://apis.io/apis/relay-compiler/relay-runtime/) — The Relay Runtime provides the client-side execution environment for Relay applications. It includes the normalized in-memory store, network layer, and…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### GraphQL (1)
+
+GraphQL schemas.
+
+- [Relay Compiler GraphQL API](https://apis.io/graphqls/relay-compiler/relay-compiler-graphql/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Relay Compiler Context](https://apis.io/jsonld/relay-compiler/relay-compiler-context/)
+
+#### Vocabulary (1)
+
+The provider's domain terms, defined.
+
+- [Relay Compiler Vocabulary](https://apis.io/vocabularies/relay-compiler/relay-compiler-vocabulary/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Relay Compiler Domain Security](https://apis.io/security/relay-compiler/relay-compiler-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Relay Compiler Plans Pricing](https://apis.io/plans/relay-compiler/relay-compiler-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Relay Compiler Rate Limits](https://apis.io/rate-limits/relay-compiler/relay-compiler-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Relay Compiler Finops](https://apis.io/finops/relay-compiler/relay-compiler-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://relay.dev)
+- [Documentation](https://relay.dev/docs/)
+- [Changelog](https://github.com/facebook/relay/releases)
+- [Blog](https://relay.dev/blog/)
+- [GitHub](https://github.com/facebook/relay)
+
+## API Evangelist rating
+
+**Kin Score 22.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| [Relay Compiler](https://relay.dev) | Ahead-of-time GraphQL compiler generating optimized runtime artifacts, type-safe code, and TypeScript/Flow definitions for React apps. |
-| [Relay Runtime](https://relay.dev/docs/api-reference/) | Client-side execution environment providing React hooks (useFragment, usePaginationFragment, useMutation, useSubscription) for declarative data-fetching. |
+| Discoverability | 57.1 |
+| Contract quality | 10.7 |
+| Contract governance | 13.6 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 7.9 |
 
-## Tags
+**Agent readiness 0.6** — human-only
 
-- Code Generation
-- GraphQL
-- React
-- Meta
-- Open Source
-- TypeScript
-- Build Tools
-
-## Timestamps
-
-- **Created:** 2026-03-25
-- **Modified:** 2026-05-02
-
-## Common Properties
-
-| Type | URL |
+| Agent-readiness dimension | Result |
 |---|---|
-| Website | [https://relay.dev](https://relay.dev) |
-| Documentation | [https://relay.dev/docs/](https://relay.dev/docs/) |
-| GitHub | [https://github.com/facebook/relay](https://github.com/facebook/relay) |
-| npm Package | [https://www.npmjs.com/package/relay-compiler](https://www.npmjs.com/package/relay-compiler) |
-| Blog | [https://relay.dev/blog/](https://relay.dev/blog/) |
-| Changelog | [https://github.com/facebook/relay/releases](https://github.com/facebook/relay/releases) |
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-## Artifacts
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
 
-| Type | Path |
-|---|---|
-| APIs Index | [apis.yml](apis.yml) |
-| JSON-LD Context | [json-ld/relay-compiler-context.jsonld](json-ld/relay-compiler-context.jsonld) |
-| Vocabulary | [vocabulary/relay-compiler-vocabulary.yml](vocabulary/relay-compiler-vocabulary.yml) |
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/relay-compiler/](https://apis.io/providers/relay-compiler/).
 
-## Maintainers
+## How this profile is made
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Relay Compiler: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/relay-compiler/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
